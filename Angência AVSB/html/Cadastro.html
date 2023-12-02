@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="/css/style.css">
+    
+</head>
+<body>
+    <header>
+        
+        <nav class="menu">
+          <div id="entre" >
+            <a href="#"><i class="fas fa-bars"></i></a>
+            </div>
+          <div id="opcoes">
+            <a href="login.html">
+                <button id="opc-rtn-login"><b>Login</b></button>
+            </a>
+            </div>
+            
+        </nav>
+    </header>
+    <div class="box">
+        <fieldset class="form">
+            <legend class="lgnd"><b>Cadastrar-se Aqui</b></legend><br>
+            <form id="cadastro-form">
+                <div class="inputBox">
+                    <input type="text" name="matricula" id="matricula-textbox" class="inputUser"  required >
+                    <label for="matricula" class="labelInput">Matrícula</label>
+                </div>
+
+                <div class="inputBox">
+                    <input type="text" name="nome" id="name-textbo" class="inputUser" required>
+                    <label for="nome" class="labelInput">Nome completo</label>
+                </div>
+
+                <div class="inputBox">
+                    <input type="text" name="email" id="email-textbox" class="inputUser" required>
+                    <label for="email" class="labelInput">Email</label>
+                </div>
+            
+                <div class="inputBox">
+                    <input type="number" name="telefone" id="telefone-textbox" class="inputUser" required>
+                    <label for="telefone" class="labelInput">Telefone</label>
+                </div>
+
+                <div class="inputBox">
+                    <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                    <label for="endereco" class="labelInput">CEP</label>
+                </div>
+                
+                <div class="inputBox">
+                    <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                    <label for="cidade" class="labelInput">Cidade</label>
+                </div>
+
+                <div class="inputBox">
+                    <input type="text" name="estado" id="estado" class="inputUser" required>
+                    <label for="estado" class="labelInput">Estado Civil</label>
+                </div>
+
+                <div class="inputBox">
+                    <input type="number" id="numFilhos" name="numFilhos" class="inputUser" required>
+                    <label for="num-filhos" class="labelInput">Número de filhos:</label>
+                </div>
+                
+                <div class="inputBox">
+                    <input type="number" id="renda" name="renda" class="inputUser" required>
+                    <label for="renda" class="labelInput">Renda familiar:</label>
+                </div>
+
+
+                <button id="login-button">Cadastrar-se</button>
+                <!-- <button id="csv-button">Fazer login</button>
+                <script type="module" src="./js/script.js"></script> -->
+
+            </form>
+        </fieldset>    
+    </div>
+</body>
+</html>
